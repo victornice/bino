@@ -1,19 +1,5 @@
 /* Start Global */
 
-@font-face
-{
-    font-family: "FontAwesome";
-    src: url("Fonts/fontawesome-webfont.eot");
-    src: url("Fonts/fontawesome-webfont.woff");
-}
-
-@font-face
-{
-    font-family: "Glyphicon";
-    src: url("Fonts/glyphicons-halflings-regular.eot");
-    src: url("Fonts/glyphicons-halflings-regular.woff");
-}
-
 body
 {
     height: 4000px;
