@@ -2,6 +2,15 @@
 
 $(document).ready(function () {
     "use strict";
+
+    // Page Load
+    
+    $(window).on("load", function () {
+        
+        $(".load .face, .load .bord").fadeOut(700);
+        $(".load").fadeOut(700);
+        
+    });
     
     $(".buttons li").click(function () {
         
@@ -179,14 +188,5 @@ $(document).ready(function () {
         
         $(".our-blog .row").css("opacity", "1").addClass("animated fadeIn");
     }, {offset: "40%"});
-    
-    // Page Load
-    
-    $(window).on("load", function () {
-        
-        $(".load .face, .load .bord").fadeOut(700);
-        $(".load").fadeOut(700);
-        
-    });
     
 });
